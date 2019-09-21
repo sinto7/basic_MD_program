@@ -6,28 +6,29 @@ public class Java
 {
 	public static void main(String[]args)
 	{
-	 int n,a,b,sum=0;
+	 int n,i=0,j=1,k;
     Scanner s = new Scanner(System.in);
+    System.out.println(i+ " "+j);
     
     n = s.nextInt();
-    a=s.nextInt();
-    b=s.nextInt();
+    for(i=2;i<n;i++);
+    {
+    	k=i+j;
+    	System.out.println(" "+k);
+    	i=j;
+    	j=k;
+    }
+    
+    
+    
+	}
+}
+	
     
     
     
    
-    for (int i = 0; i <= n; i++) 
-    {
-    	
-    		a=i;
-    
-    for(int j=1;j<=n;j++)
-    {
-    	b=j;
-    
-    sum=a+b;
-    System.out.println(sum);
-	}
+ 
 
     
     	
